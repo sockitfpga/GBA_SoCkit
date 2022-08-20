@@ -6,7 +6,7 @@ The games can run from a naked DE10-Nano with the build-in DDR-RAM.
 However, using SDRAM is highly recommended, as some games may slowdown or loose sync when using DDR-RAM.
 
 When using SDRAM, it requires 32MB SDRAM for games less than 32MB. 32MB games require either 64MB or 128MB module.
-SDRAM will be automatically used when available.
+SDRAM will be automatically used when available and size is sufficient.
 
 # Bios
 Opensource Bios from Normmatt is included, however it has issues with some games.
@@ -87,9 +87,12 @@ Please don't add bugs in such cases.
 
 If there is a game you want to play that also uses one of these features, but is not listed, please open a bug request.
 
+For romhacks you can activate the option "GPIO HACK(RTC+Rumble)". Make sure to deactivate it for other games, otherwise you will experience crashes.
+
 # Not included
-- Multiplayer features like Serials
+- Multiplayer features like serial communication
 - E-Reader support
+- Gameboy Player features
 
 # Information for developers
 
